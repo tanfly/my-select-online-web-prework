@@ -5,3 +5,7 @@ def my_select(collection)
  if yield(array[i])
    collection << array[i]
 end
+i += 1 
+end
+collection
+end
